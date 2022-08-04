@@ -1,0 +1,21 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+svg {
+  position: absolute;
+  height: 135%;
+  width: 90vw;
+  max-width: 600px;
+}
+
+polyline {
+  fill: none;
+  stroke: #fff;  
+  stroke-width: 8;
+  stroke-linecap: round;
+}
